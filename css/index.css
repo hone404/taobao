@@ -6,6 +6,12 @@ select,
 textarea {
   font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
 }
+body {
+  overflow: hidden;
+}
+html {
+  overflow: auto;
+}
 /* 通用设置-结束 */
 /* 导航栏-开始 */
 nav {
@@ -287,6 +293,7 @@ nav {
 }
 /* 轮播图上的导航栏-结束  */
 /* 轮播图-开始 */
+/* 轮播图左边 */
 .screen-outer .outer-main .tbh-service {
   box-sizing: border-box;
   width: 190px;
@@ -313,5 +320,157 @@ nav {
   position: relative;
   width: 145px;
   color: #666;
+}
+.screen-outer .outer-main .core {
+  height: 522px;
+}
+.screen-outer .outer-main .core img {
+  height: 522px;
+}
+/* 轮播图右边 */
+.screen-outer .col-right {
+  width: 290px;
+  height: 512px;
+  margin-top: 10px;
+  position: relative;
+  background-color: #fff;
+}
+/* 个人信息-开始 */
+.screen-outer .col-right .tbh-member {
+  width: 100%;
+  height: 145px;
+}
+.screen-outer .col-right .tbh-member .member {
+  height: 100%;
+  width: 100%;
+}
+.screen-outer .col-right .tbh-member .member .member-bd {
+  height: 91px;
+  background-image: url("./../img/download.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.screen-outer .col-right .tbh-member .member .member-bd .avatar-wrapper {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+}
+.screen-outer .col-right .tbh-member .member .member-bd .avatar-wrapper a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+}
+.screen-outer .col-right .tbh-member .member .member-bd .avatar-wrapper a img {
+  display: inline-block;
+  border-radius: 50%;
+}
+.screen-outer .col-right .tbh-member .member .member-bd span {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 17px;
+}
+.screen-outer .col-right .tbh-member .member .member-bd p {
+  text-align: center;
+  width: 100%;
+  height: 17px;
+  line-height: 17px;
+  position: absolute;
+  bottom: 0;
+}
+.screen-outer .col-right .tbh-member .member .member-bd p a {
+  display: inline-block;
+  border-radius: 9px;
+  background-clip: padding-box;
+  background: #ffe4db;
+  padding: 0 10px 0 20px;
+  position: relative;
+  border: none;
+  color: #ff5000;
+}
+.screen-outer .col-right .tbh-member .member .member-bd p a span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.screen-outer .col-right .tbh-member .member .member-bd p a:first-child span {
+  width: 17px;
+  height: 17px;
+  background: url(./../img/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 -572px;
+}
+.screen-outer .col-right .tbh-member .member .member-bd p a:last-child span {
+  width: 16px;
+  height: 18px;
+  background: url(./../img/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 -528px;
+}
+.screen-outer .col-right .tbh-member .member .member-ft {
+  height: 40px;
+  overflow: hidden;
+  margin-top: 2px;
+  padding-left: 15px;
+}
+.screen-outer .col-right .tbh-member .member .member-logout {
+  height: 25px;
+  margin-top: 8px;
+}
+.screen-outer .col-right .tbh-member .member .member-logout a {
+  display: inline-block;
+  width: 75px;
+  line-height: 25px;
+  margin-right: 7px;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.screen-outer .col-right .tbh-member .member .member-logout a:first-child {
+  width: 92px;
+}
+/* 个人信息-结束 */
+.screen-outer .col-right .tbh-tipoff {
+  width: 100%;
+  height: 65px;
+}
+.screen-outer .col-right .tbh-tipoff a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.screen-outer .col-right .tbh-tipoff a img {
+  height: 100%;
+}
+
+.screen-outer .col-right .tbh-notice {
+  height: 70px;
+  padding-top: 7px;
+  width: 290px;
+  font-weight: 700;
+  overflow: hidden;
+}
+.screen-outer .col-right .tbh-notice > ul {
+  height: 24px;
+  margin-top: 4px;
+  margin-right: -2px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.screen-outer .col-right .tbh-notice .notice-bd li {
+  display: none;
+  height: 25px;
+}
+.screen-outer .col-right .tbh-notice .notice-bd li:first-child{
+  display: block;
+  text-align: center;
+}
+.screen-outer .col-right .tbh-notice .notice-bd li a {
+  line-height: 25px;
+  color: #ff5000;
 }
 /* 轮播图-结束 */
