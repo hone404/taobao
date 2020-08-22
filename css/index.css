@@ -321,6 +321,20 @@ nav {
   width: 145px;
   color: #666;
 }
+.screen-outer .outer-main .tbh-service ul li i {
+  content: '';
+  float: right;
+  position: absolute;
+  right: 14px;
+  width: 5px;
+  height: 32px;
+  overflow: hidden;
+  color: #666 !important;
+}
+.screen-outer .outer-main .tbh-service ul li i s {
+  position: absolute;
+  right: 0;
+}
 .screen-outer .outer-main .core {
   height: 522px;
 }
@@ -465,7 +479,7 @@ nav {
   display: none;
   height: 25px;
 }
-.screen-outer .col-right .tbh-notice .notice-bd li:first-child{
+.screen-outer .col-right .tbh-notice .notice-bd li:first-child {
   display: block;
   text-align: center;
 }
@@ -531,5 +545,34 @@ nav {
 }
 .col-right .tbh-conve ul li:nth-child(8) a span {
   background-position-y: -309px;
+}
+.screen-outer .col-right .tbh-app h3 {
+  font-size: 0.875rem;
+  padding-left: 14px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  position: relative;
+}
+.screen-outer .col-right .tbh-app h3 a {
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.screen-outer .col-right .tbh-app ul {
+  padding-left: 23px;
+  height: 44px;
+}
+.screen-outer .col-right .tbh-app ul li {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 21px;
+  margin-bottom: 8px;
+}
+.screen-outer .col-right .tbh-app ul li img {
+  width: 32px;
+  height: 32px;
 }
 /* 轮播图-结束 */
